@@ -16,7 +16,7 @@ DXL_MOVING_STATUS_THRESHOLD = 2        # Dynamixel moving status threshold
 BAUDRATE                    = 57600
 PROTOCOL_VERSION            = 2.0
 PORT                        = "/dev/ttyUSB0"  # <-- you may need to change the port where the U2D2 is connected
-DXL_IDS                     = [1, 2, 3]  # [1, 2, 3, 4, 5]
+DXL_IDS                     = [1, 2, 3, 4, 5]  # [1, 2, 3, 4, 5]
 
 #######################################################
 # Set up the connection to the motors and enable torque

@@ -2,8 +2,13 @@ import roboticstoolbox as rtb
 from math import pi
 
 
-def get_robot_config_1(link1 = 0.3, link2 = 0.3, link3 = 0.3, link4 = 0.14,
-                       link1_offset = 0.0, link2_offset = 0.0, link3_offset = 0.0, 
+def get_robot_config_1(link1 = 0.3, 
+                       link2 = 0.3, 
+                       link3 = 0.3, 
+                       link4 = 0.14,
+                       link1_offset = 0.0, 
+                       link2_offset = 0.0, 
+                       link3_offset = 0.0, 
                        link4_offset = 0.0):
     """
     Create and return a DHRobot object representing a robot configuration.
